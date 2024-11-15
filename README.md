@@ -1,3 +1,3 @@
 # preExamSW
 
-##Reconfigure Build Path for TestEnvironment Project
+1. Reconfigure Build Path for TestEnvironment Project
