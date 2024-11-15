@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module TestEnvironment {
+	requires org.junit.jupiter.api;
+}

@@ -1,0 +1,20 @@
+INDEX VERSION 1.134+/Users/ulugbek/eclipse/preExamSW/.metadata/.plugins/org.eclipse.jdt.core
+887027179.index
+254178640.index
+1367553524.index
+566151450.index
+2334422793.index
+566926710.index
+1865797976.index
+3169865859.index
+3707468264.index
+188106480.index
+650460191.index
+3215565708.index
+4161246313.index
+1633643549.index
+2897236197.index
+566530239.index
+3966677887.index
+4291715587.index
+2404212852.index
