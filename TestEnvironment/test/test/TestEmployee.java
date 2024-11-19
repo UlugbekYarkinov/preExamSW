@@ -73,12 +73,8 @@ class TestEmployee {
 	void testInvalidSalary() {
 		int yearOfHiring = 2010;
 		int salary = -1000;
-		
-		int yearOfCalculation = 2024;
-		
-		Employee employee = new Employee(yearOfHiring, salary);	//we need to ask the prof if the constructor itself throws an exception or not
-		
-		RuntimeException exception = assertThrows(RuntimeException.class, () -> employee.bonus(yearOfCalculation));
+				
+		RuntimeException exception = assertThrows(RuntimeException.class, () -> new Employee(yearOfHiring, salary));
 		assertEquals("Negative salary.", exception.getMessage());
 	}
 	
@@ -87,12 +83,8 @@ class TestEmployee {
 	void testInvalidYearOfHiring() {
 		int yearOfHiring = 1989;
 		int salary = 1000;
-		
-		int yearOfCalculation = 2024;
-		
-		Employee employee = new Employee(yearOfHiring, salary); //we need to ask the prof if the constructor itself throws an exception or not
-		
-		RuntimeException exception = assertThrows(RuntimeException.class, () -> employee.bonus(yearOfCalculation));
+				
+		RuntimeException exception = assertThrows(RuntimeException.class, () -> new Employee(yearOfHiring, salary));
 		assertEquals("Wrong entry year.", exception.getMessage());
 	}
 	
