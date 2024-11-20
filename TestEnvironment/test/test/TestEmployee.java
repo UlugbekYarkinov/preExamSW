@@ -102,4 +102,18 @@ class TestEmployee {
 		assertEquals("Wrong calculation year.", exception.getMessage());
 	}
 
+	//Test Case 10 Dummy-check
+	@Test
+	void test200Bonus() {
+		int yearOfHiring = 1993;
+		int salary = 1000;
+		
+		int yearOfCalculation = 2024;
+		
+		Employee employee = new Employee(yearOfHiring, salary);
+		
+		assertEquals(2*salary, employee.bonus(yearOfCalculation));
+
+	}
+
 }
